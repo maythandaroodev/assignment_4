@@ -23,10 +23,13 @@ class HomePage extends StatelessWidget {
           )
         ],
       ),
-      body: const Column(
+      body: const Stack(
         children: [
           DateItemView(),
-          TaskItemView(),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: TaskItemView(),
+          )
         ],
       )
     );

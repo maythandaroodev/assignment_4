@@ -11,8 +11,12 @@ const double kSP27x = 27;
 const double kSP30x = 30;
 const double kSP70x = 70;
 const double kSP80x = 80;
+const double kSP85x = 85;
 const double kSP100x = 100;
+const double kSP150x = 150;
+const double kSP230x = 230;
 const double kSP265x = 265;
+const double kSP310x = 310;
 
 
 
@@ -26,6 +30,8 @@ const double kTextBoxWidth = 65;
 const double kTextBoxHeight = 90;
 const double kTextBoxRadius = 10;
 
+const double kTaskContainerWidth = double.infinity;
+const double kTaskContainerHeight = 400;
 const double kTaskBoxWidth = 320;
 const double kTaskBoxHeight = 70;
 const double kTaskBoxRadius = 10;

@@ -10,7 +10,6 @@ class TaskBoxWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.only(bottom: kSP10x),
       width: kTaskBoxWidth,
       height: kTaskBoxHeight,
       decoration: BoxDecoration(
